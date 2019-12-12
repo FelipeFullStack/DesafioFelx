@@ -1,0 +1,76 @@
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+body{
+    width: 100wv;
+    height: 100wh;
+    background-color: rgb(250, 244, 244);
+}
+
+
+section{
+    border: 1px solid rgb(196, 191, 191);
+    background-color: rgb(250, 244, 244);
+    margin: 50px 100px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.conteiner{
+    border:1px solid rgb(196, 191, 191);
+    width: 45%;
+    display: flex;
+    margin: 10px;
+    background-color:white;
+    
+}
+
+.foto-usuario img{
+    width: 120px;
+
+}
+
+.fotoCard{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.fotosocial{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fotosocial img{
+    width: 25px;  
+    margin-left: 5px;
+
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+}
+
+.boton{
+
+    background: grey;
+    border: black 1px;
+    color: white;
+    padding-top: 7px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+
